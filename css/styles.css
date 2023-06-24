@@ -43,7 +43,6 @@ img {
   background-color: #00000058;
 }
 .showcase {
-  border: 1px solid red;
   width: 100%;
   height: 93vh;
   position: relative;
@@ -282,4 +281,91 @@ img {
 }
 .btn:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 960px) {
+  .showcase {
+    height: 70vh;
+  }
+  .hide-sm {
+    display: none;
+  }
+  .showcase-top img {
+    top: 30%;
+    left: 5%;
+    transform: translate(0);
+  }
+  .showcase-content h1 {
+    font-size: 3.7rem;
+  }
+  .showcase-content p {
+    font-size: 1.5rem;
+  }
+
+  .footer .footer-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn-xl {
+    font-size: 1.7rem;
+    padding: 1.1rem 1.7rem;
+  }
+
+  .btn-lg {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+  .text-xl {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .text-lg {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  .text-md {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    box-shadow: inset 100px 220px 150px rgba(0, 0, 0, 0.65),
+      inset -100px -220px 150px rgba(0, 0, 0, 0.65);
+  }
+  .showcase-top img {
+    width: 140px;
+  }
+  .showcase-content h1 {
+    font-size: 3rem;
+  }
+  .showcase-content p {
+    font-size: 1.2rem;
+  }
+
+  #tab-1-content .tab-1-content-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  #tab-2-content .tab-2-content-top {
+    display: block;
+    text-align: center;
+  }
+  #tab-2-content .tab-2-content-bottom {
+    grid-template-columns: 1fr;
+  }
+  #tab-3-content .tab-3-content-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .btn-xl {
+    font-size: 1.5rem;
+    padding: 0.9rem 1.5rem;
+  }
+
+  .btn-lg {
+    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+  }
 }
