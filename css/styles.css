@@ -160,6 +160,37 @@ img {
   text-align: center;
 }
 
+#tab-3-content .tab-3-content-top {
+  padding: 1rem 5rem;
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#tab-3-content .tab-3-content-bottom {
+  width: 100%;
+  text-align: center;
+}
+.tab-3-content-bottom table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tab-3-content-bottom table th {
+  padding: 0.8rem;
+}
+.tab-3-content-bottom table tbody td {
+  padding: 0.8rem 1.2rem;
+}
+.tab-3-content-bottom table tbody tr td:first-child {
+  text-align: left;
+}
+.tab-3-content-bottom table tbody tr:nth-child(even) {
+  background: #222;
+}
+
 
 
 
