@@ -73,3 +73,46 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* section */
+.tabs {
+  background: var(--dark-color);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.132);
+  padding-top: 1rem;
+}
+.tabs .container {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+
+  overflow: hidden;
+}
+.tab-item p {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.tabs .container > div {
+  padding: 2rem 0 2rem;
+}
+.tabs .container > div:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.tabs .tab-border {
+  border-bottom: 4px solid var(--primary-color);
+}
+
+
+
+
+
+/* container */
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
