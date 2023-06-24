@@ -73,6 +73,31 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* showcase-content */
+.showcase-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  text-align: center;
+  z-index: 2;
+}
+.showcase-content h1 {
+  font-size: 4.7rem;
+  font-weight: bold;
+  margin-bottom: 1.75rem;
+}
+.showcase-content p {
+  margin: 0 0 1rem;
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
 
 /* section */
 .tabs {
@@ -104,6 +129,19 @@ img {
 .tabs .tab-border {
   border-bottom: 4px solid var(--primary-color);
 }
+/* Tab-content */
+.tab-content {
+  padding: 3rem 0;
+  color: #fff;
+  background: #000;
+}
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+}
 
 
 
@@ -115,4 +153,57 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+}
+/*Text styles */
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1.1rem;
+}
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1.1rem;
+}
+.text-md {
+  font-size: 1.5rem;
+  margin-bottom: 1.1rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-dark {
+  color: #999;
+}
+
+
+/* button */
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  margin-right: 0.25rem;
+}
+
+.btn-rounded {
+  border-radius: 6px;
+}
+.btn-lg {
+  font-size: 1.7rem;
+  padding: 0.8rem 1.3rem;
+  text-transform: uppercase;
+}
+.btn-xl {
+  font-size: 2rem;
+  padding: 1.5rem 2.1rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  opacity: 0.9;
 }
