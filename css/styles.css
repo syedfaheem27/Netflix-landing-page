@@ -32,7 +32,6 @@ img {
   width: 100%;
 }
 
-
 .showcase::after {
   content: "";
   position: absolute;
@@ -44,7 +43,7 @@ img {
   background-color: #00000058;
 }
 .showcase {
-    border: 1px solid red;
+  border: 1px solid red;
   width: 100%;
   height: 93vh;
   position: relative;
@@ -97,7 +96,6 @@ img {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
-
 
 /* section */
 .tabs {
@@ -190,6 +188,7 @@ img {
 .tab-3-content-bottom table tbody tr:nth-child(even) {
   background: #222;
 }
+
 /* Footer */
 
 .footer {
@@ -215,9 +214,15 @@ img {
   padding: 0.5rem 0.25rem;
 }
 
-
-
-
+/* Show or Hide Tab-content-item */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+.show {
+  display: block !important;
+}
 
 /* container */
 .container {
@@ -245,7 +250,6 @@ img {
 .text-dark {
   color: #999;
 }
-
 
 /* button */
 
