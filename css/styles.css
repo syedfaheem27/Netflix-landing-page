@@ -190,6 +190,30 @@ img {
 .tab-3-content-bottom table tbody tr:nth-child(even) {
   background: #222;
 }
+/* Footer */
+
+.footer {
+  max-width: 75%;
+  margin: 2rem auto 1rem;
+  padding: 1rem 1.25rem;
+  overflow: auto;
+}
+.footer p,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+.footer p {
+  margin-bottom: 1rem;
+}
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.footer-cols ul li {
+  padding: 0.5rem 0.25rem;
+}
 
 
 
